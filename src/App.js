@@ -3,6 +3,9 @@ import './App.css'
 function App() {
   return (
     <div className="App">
+      <div className="header" id="myHeader">
+        <h2><strong>Keep in touch &#128519;, all the images will be posted here</strong></h2>
+      </div>
       <div className="gallery">
         <a target="_blank" href="./images/image_1.jpeg">
           <img src="./images/image_1.jpeg" alt="Cinque Terre" width="600" height="400"/>
