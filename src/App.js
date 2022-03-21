@@ -6,7 +6,10 @@ function App() {
       <div className="header" id="myHeader">
         <h2><strong>Keep in touch &#128519;, all the images will be posted here</strong></h2>
       </div>
-      <div className="gallery">
+      
+      <iframe title='driveFrame' src="https://drive.google.com/embeddedfolderview?id=1SJpqyByRfVPhmcm-LgS7YxDY4RA6l-8k#grid" className='imageGrid'></iframe>
+
+      {/* <div className="gallery">
         <a target="_blank" href="./images/image_1.jpeg">
           <img src="./images/image_1.jpeg" alt="Cinque Terre" width="600" height="400"/>
         </a>
@@ -32,7 +35,7 @@ function App() {
           <img src="./images/image_4.jpeg" alt="Mountains" width="600" height="400"/>
         </a>
         
-      </div>
+      </div> */}
     </div>
   );
 }
